@@ -1,0 +1,94 @@
+{
+  "status": "PROVISIONAL — 19:00 WIB verification baseline",
+  "date": "SUNDAY, 22 NOVEMBER 2026",
+  "title": "THE WORLD IN ONE DAY",
+  "deck": "CLIMATE DIPLOMACY · CIVILIAN SAFETY · GLOBAL SECURITY",
+  "leads": [
+    {
+      "slot": "lead-1",
+      "region": "GLOBAL / CLIMATE",
+      "location": "ANTALYA, TURKIYE",
+      "headline": "COP31: NO CONSENSUS ON ANTALYA PACT",
+      "detail": "Other climate outcomes and voluntary commitments progressed.",
+      "status": "QUALIFIED",
+      "evidence": "19:00 report §3.1",
+      "illustration": "cop31-gavel"
+    },
+    {
+      "slot": "lead-2",
+      "region": "EUROPE / CIVILIANS",
+      "location": "KYIV REGION, UKRAINE",
+      "headline": "KYIV REGION: 14 REPORTED DEAD",
+      "detail": "Regional figure: 11 Dymer, 2 Vyshneve, 1 Bila Tserkva.",
+      "status": "QUALIFIED",
+      "evidence": "19:00 report §3.2",
+      "illustration": "kyiv-rescue"
+    },
+    {
+      "slot": "lead-3",
+      "region": "AFRICA / MARITIME",
+      "location": "BENGHAZI, LIBYA",
+      "headline": "RUSSIAN CORVETTE CAPSIZES",
+      "detail": "Ukraine claims responsibility; independent confirmation remains pending.",
+      "status": "REPORTED",
+      "evidence": "19:00 report §3.3",
+      "illustration": "benghazi-corvette"
+    }
+  ],
+  "secondary": [
+    {
+      "location": "CIKANDE, INDONESIA",
+      "headline": "FACTORY FIRE: SEARCH CONTINUES",
+      "detail": "24 body bags; 30 missing; 24 safe.",
+      "status": "QUALIFIED",
+      "evidence": "19:00 report §3.4"
+    },
+    {
+      "location": "UNITED STATES",
+      "headline": "DEMOCRATS AT LEAST 258 SEATS",
+      "detail": "AP Sunday race call; four races outstanding.",
+      "status": "QUALIFIED",
+      "evidence": "19:00 report §3.5"
+    },
+    {
+      "location": "ITURI, DRC",
+      "headline": "FIGHTING DISRUPTS EBOLA RESPONSE",
+      "detail": "Health workers sheltered over 24 hours.",
+      "status": "QUALIFIED",
+      "evidence": "19:00 report §4.2"
+    },
+    {
+      "location": "GAZIPUR, BANGLADESH",
+      "headline": "GARMENT UNREST HITS INDUSTRY",
+      "detail": "BGMEA: US$682m survey estimate.",
+      "status": "QUALIFIED",
+      "evidence": "19:00 report §4.4"
+    },
+    {
+      "location": "SEOUL, SOUTH KOREA",
+      "headline": "EDUCATION MINISTER RESIGNS",
+      "detail": "President accepted resignation after exam-rule controversy.",
+      "status": "QUALIFIED",
+      "evidence": "19:00 report §4.5"
+    },
+    {
+      "location": "KHARTOUM, SUDAN",
+      "headline": "DRONES DAMAGE UN PREMISES",
+      "detail": "UN confirms damage; attacker unidentified.",
+      "status": "QUALIFIED",
+      "evidence": "19:00 report §4.1"
+    },
+    {
+      "location": "GULF OF OMAN",
+      "headline": "UKMTO REPORTS TANKER INCIDENT",
+      "detail": "14:25 UTC; type and vessel unidentified.",
+      "status": "QUALIFIED",
+      "evidence": "19:00 report §4.3"
+    }
+  ],
+  "briefs": [
+    "POLAND: Kh-101 debris identified at three crash sites",
+    "BEPI COLOMBO: Mercury orbit entered; 21 Nov local event",
+    "THAILAND: Kok River protection zone is only a proposal"
+  ]
+}
