@@ -41,3 +41,11 @@ These documents are **supporting research inputs**, not the final image and not 
 - Concept draft: [Global Editorial Atlas V2](../design/concepts/GLOBAL_EDITORIAL_ATLAS_CONCEPT_V2_2026-11-23_DRAFT.md) — not yet approved for production.
 - Visual review: [Prompt A vs Prompt B QA](../design/qa/PROMPT_A_VS_B_VISUAL_QA_2026-11-23.md) — Prompt A is the layout reference; Prompt B is the illustration-style reference.
 - Generated image reference assets: `../assets/references/generated/` — originals should be uploaded without alteration; see that folder's README.
+
+
+## Stage 1 — Evidence inventory
+
+- Task: [Evidence Inventory Task](03-evidence-inventory/EVIDENCE_INVENTORY_TASK_2026-11-23.md)
+- Expected report: `03-evidence-inventory/EVIDENCE_INVENTORY_REPORT_2026-11-23.md`
+
+Complete this read-only evidence audit before the final-news verification and editorial lock. The original GPT and Gemini research reports must remain unchanged.
