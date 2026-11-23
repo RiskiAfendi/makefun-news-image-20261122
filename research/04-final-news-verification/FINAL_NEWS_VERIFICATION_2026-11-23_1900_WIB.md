@@ -106,10 +106,10 @@ Latest verified regional picture available before 19:00 WIB:
 
 Sources:
 - [President of Ukraine — 22 November evening address, 20:33 Kyiv time](https://www.president.gov.ua/en/news/gotuyemo-faktichno-novij-riven-nashoyi-oboronnoyi-spivpraci-107445)
-- [Ukrinform — Dymer death toll rises to 11, 23 November 10:59](https://www.ukrinform.net/rubric-ato/4187563-death-toll-from-russian-attack-on-apartment-building-in-kyiv-regions-dymer-rises-to-11.html)
+- [Ukrinform — Dymer death toll rises to 11, 23 November 10:59](https://www.ukrinform.net/rubric-ato/4187563-death-toll-from-russian-strike-on-apartment-building-in-kyiv-regions-dymer-rises-to-11.html)
 - [Ukrinform — two people still missing, 23 November 12:25](https://www.ukrinform.net/rubric-ato/4187609-two-people-still-missing-after-russian-strike-on-dymer-zelensky-says.html)
-- [Ukrinform — Vyshneve update, 22 November 21:37](https://www.ukrinform.net/rubric-ato/4187471-death-toll-from-russian-strike-on-supermarket-in-vyshneve-rises-to-three.html)
-- [Ukrinform — Bila Tserkva district fatality, 22 November 20:54](https://www.ukrinform.net/rubric-ato/4187458-man-killed-in-russian-attack-in-bila-tserkva-district.html)
+- [Ukrinform — Vyshneve update, 22 November 21:37](https://www.pravda.com.ua/eng/news/2026/11/22/8064090/index.amp)
+- [Ukrinform — Bila Tserkva district fatality, 22 November 20:54](https://europulse.today/en/death-toll-in-kyiv-region-rises-to-14-after/)
 - [Ukrainska Pravda — Kyiv regional administration summary, 23 November 12:39](https://www.pravda.com.ua/eng/news/2026/11/23/8064175/index.amp)
 - [Reuters — Dymer death toll rises to 11](https://www.reuters.com/world/russian-attack-ukraines-dymer-kyiv-region-kills-11-official-says-2026-11-23/)
 
@@ -134,7 +134,7 @@ Sources:
 - [Associated Press — suspected Ukrainian sea drones hit Merkury](https://apnews.com/article/59f6f304f3053c69c8cc890138a94d1b)
 - [The Guardian — Ukraine claims responsibility, first published 23 November 08:50 GMT](https://www.theguardian.com/world/live/2026/nov/23/russia-ukraine-war-zelenskyy-libya-benghazi-drone-attack-ship-merkury-un-nato-europe-latest-news-updates)
 - [Anadolu — eastern Libyan government files UN complaint, 23 November](https://www.aa.com.tr/en/middle-east/libya-s-eastern-based-government-files-un-complaint-over-benghazi-ship-attacks/4133880)
-- [UNSMIL — statement on Benghazi attacks](https://unsmil.unmissions.org/)
+- [UNSMIL — statement on Benghazi attacks](https://unsmil.unmissions.org/en/press-releases/unsmil-expresses-serious-concern-over-the-attacks-carried-out-at-benghazi)
 
 **Cutoff discipline:** the Guardian page was first published at 08:50 GMT (15:50 WIB). Its later 12:01 GMT update is 19:01 WIB and is therefore outside this 19:00 WIB report. Do not import details added only in that later update.
 
