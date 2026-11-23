@@ -44,10 +44,14 @@ Before designing or coding:
 
 1. Read `README.md` and `COPILOT_TASK_BRIEF.md`.
 2. Inventory the repository and inspect all relevant research, fact-sheet, concept, image-reference, and provenance files.
-3. Look specifically for the owner's approved concept **“The World in One Day — Global Editorial Atlas”** and the verified news research for 22 November 2026.
-4. Report which source files were found and which are missing.
+3. Read these research reports independently:
+   - `research/01-gpt-web-search/GPT_WEB_SEARCH_MASTER_FACT_SHEET_2026-11-22_PROVISIONAL.md` — GPT Web Search master fact sheet.
+   - `research/02-gemini-deep-research/GEMINI_DEEP_RESEARCH_GLOBAL_NEWS_INTELLIGENCE_2026-11-22.md` — Gemini Deep Research global news intelligence.
+4. Look for the owner's approved concept **“The World in One Day — Global Editorial Atlas”** and its latest approved version.
+5. Report which source files were found and which are missing.
+6. Build a reconciliation table showing overlap, GPT-only and Gemini-only candidates, differing shortlist choices, timestamp/date conflicts, source-strength differences, and unresolved claims. Preserve the reports' candidate IDs and status labels.
 
-The repository may not yet contain the research pack or approved concept. If either is missing, **stop before selecting stories or creating the final image**. Tell the owner exactly which source files need to be added. Do not infer their contents from filenames, prior assumptions, general knowledge, or other entrants' work.
+The repository must contain both research reports before selecting stories. If either report is missing, **stop before selecting stories or creating the final image** and tell the owner exactly which file is missing. If the approved concept is missing, request it too. Do not infer source contents from filenames, prior assumptions, general knowledge, or other entrants' work. Keep the two research reports unchanged; write reconciliation and final verification as separate documents.
 
 # Editorial and fact-checking rules
 
