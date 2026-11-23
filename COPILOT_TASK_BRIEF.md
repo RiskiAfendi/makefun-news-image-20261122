@@ -53,7 +53,7 @@ Build an original, editorial-quality one-image summary of the world's news on 22
 
 ## Current state
 
-Repository setup is complete; implementation has not started. No `main.py`, final image, tests, or make.fun submission have been created yet.
+As of the Stage 3 task creation, `main.py`, final image, and tests are not yet present. Stage 1 and 19:00 WIB news verification are complete. The owner has authorized a provisional Hybrid V3 build in Copilot Cloud now, with final delta check at 23:00 WIB and internal submission target before 00:00 WIB. This statement must be rechecked against the live repository before reporting build status.
 
 
 ## Research source pack (read before planning)
@@ -74,7 +74,7 @@ The research files are supporting inputs only. They are not runtime dependencies
 - Prompt A/B visual QA: `design/qa/PROMPT_A_VS_B_VISUAL_QA_2026-11-23.md` — Prompt A is the layout reference; Prompt B is the illustration-style reference. Neither is final.
 - Generated image references are expected under `assets/references/generated/`. See that folder's README for the exact filenames and original measurements.
 
-Do not assume the concept is approved. Ask the owner to lock the lead-story option and information density before production. The generated drafts exceed the bounty's output limits and must not be submitted unchanged.
+Do not assume the concept is final-approved. The owner expressly approved **provisional** production before the 23:00 WIB delta check; require final editorial approval before content lock or submission. The generated drafts exceed the bounty's output limits and must not be submitted unchanged.
 
 
 ## GPT Image prompt source files
@@ -89,8 +89,6 @@ The exact Prompt A and Prompt B used to generate the current reference drafts ar
 Prompt A/B are historical generation instructions and visual references, not final approved news copy. The current image drafts are stored in `assets/references/generated/`. Use Prompt B as the preferred illustration-first production direction, but only after the final news verification/content lock. Keep all exact headlines and figures in code-rendered text rather than asking the image model to typeset them.
 
 
-## Immediate next step — Stage 1 Evidence Inventory
+## Immediate next step — Stage 3 Provisional Hybrid V3 Build
 
-Run the read-only task in `research/03-evidence-inventory/EVIDENCE_INVENTORY_TASK_2026-11-23.md` with the `Global News Image Editor` agent. Its required output is `research/03-evidence-inventory/EVIDENCE_INVENTORY_REPORT_2026-11-23.md`.
-
-Do not begin story selection, final image generation, or coding until the owner has reviewed the Stage 1 report. The report must preserve the two original research tracks and identify their differences rather than silently merging them.
+Stage 1 evidence inventory is complete and the 19:00 WIB broad verification report is committed. The owner now authorizes starting **provisional** image/code production without waiting for 23:00 WIB. Follow `production/STAGE3_HYBRID_V3_PROVISIONAL_BUILD_2026-11-23.md` in a genuine eligible Copilot Cloud coding-agent session. Produce working renderer, story-data file, preview, root `main.py`, and real QA results. **Do not submit** or mark news final before the 23:00 WIB delta check and owner approval. Preserve original research and image references.
