@@ -1,5 +1,9 @@
 # Make.fun — World News Image (22 November 2026)
 
+[![make.fun competition](https://make.fun/badge/news-image-20261122.svg)](https://make.fun/bounty/news-image-20261122)
+[![Competition rank](https://make.fun/badge/news-image-20261122/RiskiAfendi/makefun-news-image-20261122/rank.svg)](https://make.fun/bounty/news-image-20261122)
+[![Competition reward](https://make.fun/badge/news-image-20261122/RiskiAfendi/makefun-news-image-20261122/reward.svg)](https://make.fun/bounty/news-image-20261122)
+
 This repository contains the source and runtime deliverables for the make.fun bounty:
 
 - **Bounty:** [Sum up 22 November's world news in one image](https://make.fun/bounty/news-image-20261122)
