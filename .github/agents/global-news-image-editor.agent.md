@@ -169,3 +169,17 @@ Provide:
 - Do not overwrite owner-provided research or concept documents.
 - Do not claim that a file, test, commit, transcript, or submission exists unless you have verified it.
 - Keep all important decisions and test evidence in repository documentation so the work is auditable.
+
+
+## GPT Image prompt and reference-asset inventory
+
+Read `design/prompts/README.md`, then both standalone prompts and the combined source prompt pack:
+- `design/prompts/PROMPT_A_FULL_EDITORIAL_IMAGE_2026-11-23.md`
+- `design/prompts/PROMPT_B_ILLUSTRATION_FIRST_UNDERLAY_2026-11-23.md`
+- `design/prompts/MAKEFUN_GLOBAL_EDITORIAL_ATLAS_IMAGE_GENERATION_PROMPT_20261123.md`
+
+The two uploaded images are reference drafts:
+- `assets/references/generated/prompt-a-full-editorial-draft-1254x1254.png`
+- `assets/references/generated/prompt-b-illustration-first-draft-1254x1254.png`
+
+Use Prompt A only as the full-page hierarchy/layout reference and Prompt B as the illustration-language/underlay reference. Prompt A/B news copy is provisional and must not be treated as locked. Neither image is approved for direct submission. Before production, complete the evidence inventory and the required post-cutoff fact verification. For Hybrid V3, prefer separately generated/curated illustrations plus deterministic code-rendered typography.
