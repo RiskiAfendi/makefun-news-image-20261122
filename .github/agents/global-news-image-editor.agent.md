@@ -53,7 +53,7 @@ Before designing or coding:
 7. Report which source files were found and which are missing.
 8. Build a reconciliation table showing overlap, GPT-only and Gemini-only candidates, differing shortlist choices, timestamp/date conflicts, source-strength differences, and unresolved claims. Preserve the reports' candidate IDs and status labels.
 
-The repository must contain both research reports before selecting stories. If either report is missing, **stop before selecting stories or creating the final image** and tell the owner exactly which file is missing. The current concept V2 is a draft, not an approved production spec; request explicit owner approval before treating it as locked. If the generated image references are missing, request them before doing image-specific reconstruction. Do not infer source contents from filenames, prior assumptions, general knowledge, or other entrants' work. Keep the two research reports, concept draft, and visual QA report unchanged; write reconciliation and final verification as separate documents.
+The repository must contain both research reports before selecting stories. If either report is missing, **stop before selecting stories or creating the final image** and tell the owner exactly which file is missing. The current concept V2 is a draft, not an approved final production spec. The owner has now authorized a PROVISIONAL Hybrid V3 build under `production/STAGE3_HYBRID_V3_PROVISIONAL_BUILD_2026-11-23.md`; this is not approval to lock final news, finalize artwork, or submit. Follow that task for the immediate build, then request owner review before final lock. If the generated image references are missing, request them before doing image-specific reconstruction. Do not infer source contents from filenames, prior assumptions, general knowledge, or other entrants' work. Keep the two research reports, concept draft, and visual QA report unchanged; write reconciliation and final verification as separate documents.
 
 # Editorial and fact-checking rules
 
@@ -124,7 +124,7 @@ Follow the read-only task exactly as defined in `research/03-evidence-inventory/
 
 ## Stage 2 — Editorial plan
 
-Prepare a concise story-selection and layout plan grounded in the supplied sources. Include the lead/supporting hierarchy, geographic coverage, headline wording, visual metaphor, and the main factual risks. Ask the owner to approve material editorial changes before implementation.
+Prepare a concise story-selection and layout plan grounded in the supplied sources. Include the lead/supporting hierarchy, geographic coverage, headline wording, visual metaphor, and the main factual risks. For the owner-authorized provisional build, implement modular layout and provisional story data now. Request the owner's approval before final editorial lock, final content changes, or submission.
 
 ## Stage 3 — Original artwork and layout
 
@@ -182,4 +182,9 @@ The two uploaded images are reference drafts:
 - `assets/references/generated/prompt-a-full-editorial-draft-1254x1254.png`
 - `assets/references/generated/prompt-b-illustration-first-draft-1254x1254.png`
 
-Use Prompt A only as the full-page hierarchy/layout reference and Prompt B as the illustration-language/underlay reference. Prompt A/B news copy is provisional and must not be treated as locked. Neither image is approved for direct submission. Before production, complete the evidence inventory and the required post-cutoff fact verification. For Hybrid V3, prefer separately generated/curated illustrations plus deterministic code-rendered typography.
+Use Prompt A only as the full-page hierarchy/layout reference and Prompt B as the illustration-language/underlay reference. Prompt A/B news copy is provisional and must not be treated as locked. Neither image is approved for direct submission. The evidence inventory and 19:00 WIB broad news verification are completed. The owner explicitly authorizes PROVISIONAL production before the 23:00 WIB final delta check. Do not claim final news lock or final submission approval before the delta check. For Hybrid V3, prefer separately generated/curated illustrations plus deterministic code-rendered typography.
+
+
+## Current authorized stage (23 November 2026 evening)
+
+Stage 1 evidence inventory and 19:00 WIB broad verification are complete. The **immediate work** is `production/STAGE3_HYBRID_V3_PROVISIONAL_BUILD_2026-11-23.md`. Start creating the authoring renderer, data-driven copy layer, provisional preview, root `main.py`, and real QA tests in this eligible Copilot Cloud coding-agent session **now**. The 23:00 WIB delta check will update the content data only. No submission or final editorial lock is authorized by this stage.
