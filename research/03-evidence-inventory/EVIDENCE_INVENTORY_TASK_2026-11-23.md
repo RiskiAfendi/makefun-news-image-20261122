@@ -67,7 +67,7 @@ Create a table with one row per relevant repository artifact and these columns:
 
 Verify the repository's MIT license from the actual `LICENSE` file. Do not claim that the repository is submission-ready merely because the license exists.
 
-For each image, record actual dimensions, byte size, format, and whether it is a complete readable image. If possible, inspect the image itself and describe only visible, supported details. Distinguish image inspection from information copied out of the existing QA report.
+For each image, record actual dimensions, byte size, format, and whether it is a complete readable image. Distinguish the current GitHub blobs from the larger QA source copies. If possible, inspect the image itself and describe only visible, supported details. Distinguish image inspection from information copied out of the existing QA report.
 
 ## 4. GPT–Gemini source reconciliation
 
@@ -90,7 +90,7 @@ Do not select the final stories in this stage. The reconciliation matrix is an e
 
 ## 5. Visual-source reconciliation
 
-Compare the two prompt documents with the two generated reference images and the existing Prompt A/B QA report.
+Compare the two prompt documents with the two generated reference images and the existing Prompt A/B QA report. Note a known provenance/size discrepancy: the GitHub Prompt A/B blobs are 2,377,197 bytes and 1,746,215 bytes, while the earlier QA source copies were recorded as 3,287,738 bytes and 2,532,744 bytes. The images appear visually to match their respective QA versions, but do not claim byte identity or pixel equality without verification.
 
 Record:
 
