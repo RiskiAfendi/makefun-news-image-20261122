@@ -54,3 +54,15 @@ Build an original, editorial-quality one-image summary of the world's news on 22
 ## Current state
 
 Repository setup is complete; implementation has not started. No `main.py`, final image, tests, or make.fun submission have been created yet.
+
+
+## Research source pack (read before planning)
+
+The two original research reports are stored separately:
+
+- `research/01-gpt-web-search/GPT_WEB_SEARCH_MASTER_FACT_SHEET_2026-11-22_PROVISIONAL.md` — GPT Web Search master fact sheet; marked provisional and requiring more research.
+- `research/02-gemini-deep-research/GEMINI_DEEP_RESEARCH_GLOBAL_NEWS_INTELLIGENCE_2026-11-22.md` — Gemini Deep Research global news intelligence; marked ready for art direction but still requiring the stated post-cutoff update.
+
+Read both documents independently. Preserve their separate candidate IDs, claims, timestamps, confidence labels, and exclusions. Build a reconciliation table before choosing stories. Do not silently merge conflicting shortlists or treat either report as a final post-cutoff fact freeze. See `research/README.md`.
+
+The research files are supporting inputs only. They are not runtime dependencies and must not be read by `main.py` during execution.
