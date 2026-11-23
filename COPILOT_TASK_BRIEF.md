@@ -87,3 +87,10 @@ The exact Prompt A and Prompt B used to generate the current reference drafts ar
 - `design/prompts/README.md` — provenance and usage guidance.
 
 Prompt A/B are historical generation instructions and visual references, not final approved news copy. The current image drafts are stored in `assets/references/generated/`. Use Prompt B as the preferred illustration-first production direction, but only after the final news verification/content lock. Keep all exact headlines and figures in code-rendered text rather than asking the image model to typeset them.
+
+
+## Immediate next step — Stage 1 Evidence Inventory
+
+Run the read-only task in `research/03-evidence-inventory/EVIDENCE_INVENTORY_TASK_2026-11-23.md` with the `Global News Image Editor` agent. Its required output is `research/03-evidence-inventory/EVIDENCE_INVENTORY_REPORT_2026-11-23.md`.
+
+Do not begin story selection, final image generation, or coding until the owner has reviewed the Stage 1 report. The report must preserve the two original research tracks and identify their differences rather than silently merging them.
