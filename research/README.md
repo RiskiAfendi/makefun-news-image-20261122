@@ -34,3 +34,10 @@ These documents are **supporting research inputs**, not the final image and not 
 - `assets/references/generated/` — earlier GPT-generated visual drafts used as references.
 - `assets/final/` — owner-approved final image asset.
 - `main.py` — required root-level Python 3.13 entry point.
+
+
+## Design source documents
+
+- Concept draft: [Global Editorial Atlas V2](../design/concepts/GLOBAL_EDITORIAL_ATLAS_CONCEPT_V2_2026-11-23_DRAFT.md) — not yet approved for production.
+- Visual review: [Prompt A vs Prompt B QA](../design/qa/PROMPT_A_VS_B_VISUAL_QA_2026-11-23.md) — Prompt A is the layout reference; Prompt B is the illustration-style reference.
+- Generated image reference assets: `../assets/references/generated/` — originals should be uploaded without alteration; see that folder's README.
