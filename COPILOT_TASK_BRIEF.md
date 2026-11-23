@@ -75,3 +75,15 @@ The research files are supporting inputs only. They are not runtime dependencies
 - Generated image references are expected under `assets/references/generated/`. See that folder's README for the exact filenames and original measurements.
 
 Do not assume the concept is approved. Ask the owner to lock the lead-story option and information density before production. The generated drafts exceed the bounty's output limits and must not be submitted unchanged.
+
+
+## GPT Image prompt source files
+
+The exact Prompt A and Prompt B used to generate the current reference drafts are preserved under `design/prompts/`:
+
+- `design/prompts/PROMPT_A_FULL_EDITORIAL_IMAGE_2026-11-23.md` — exact extraction of the one-shot full editorial image prompt.
+- `design/prompts/PROMPT_B_ILLUSTRATION_FIRST_UNDERLAY_2026-11-23.md` — exact extraction of the text-free illustration underlay prompt.
+- `design/prompts/MAKEFUN_GLOBAL_EDITORIAL_ATLAS_IMAGE_GENERATION_PROMPT_20261123.md` — unchanged combined source prompt pack.
+- `design/prompts/README.md` — provenance and usage guidance.
+
+Prompt A/B are historical generation instructions and visual references, not final approved news copy. The current image drafts are stored in `assets/references/generated/`. Use Prompt B as the preferred illustration-first production direction, but only after the final news verification/content lock. Keep all exact headlines and figures in code-rendered text rather than asking the image model to typeset them.
