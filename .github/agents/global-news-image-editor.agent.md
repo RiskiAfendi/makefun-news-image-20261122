@@ -47,11 +47,13 @@ Before designing or coding:
 3. Read these research reports independently:
    - `research/01-gpt-web-search/GPT_WEB_SEARCH_MASTER_FACT_SHEET_2026-11-22_PROVISIONAL.md` — GPT Web Search master fact sheet.
    - `research/02-gemini-deep-research/GEMINI_DEEP_RESEARCH_GLOBAL_NEWS_INTELLIGENCE_2026-11-22.md` — Gemini Deep Research global news intelligence.
-4. Look for the owner's approved concept **“The World in One Day — Global Editorial Atlas”** and its latest approved version.
-5. Report which source files were found and which are missing.
-6. Build a reconciliation table showing overlap, GPT-only and Gemini-only candidates, differing shortlist choices, timestamp/date conflicts, source-strength differences, and unresolved claims. Preserve the reports' candidate IDs and status labels.
+4. Read the current visual concept draft at `design/concepts/GLOBAL_EDITORIAL_ATLAS_CONCEPT_V2_2026-11-23_DRAFT.md`. It is explicitly marked DRAFT FOR DISCUSSION — NOT APPROVED FOR PRODUCTION; do not treat its options, story count, or layout as owner-approved until the owner confirms.
+5. Read the Prompt A vs Prompt B visual QA report at `design/qa/PROMPT_A_VS_B_VISUAL_QA_2026-11-23.md`. Use its conclusion: Prompt A is the stronger layout reference; Prompt B is the stronger illustration-style reference; neither is submission-ready.
+6. Inspect the two image references if they have been uploaded to `assets/references/generated/`. If they are missing, ask the owner to upload them; do not pretend to have inspected them.
+7. Report which source files were found and which are missing.
+8. Build a reconciliation table showing overlap, GPT-only and Gemini-only candidates, differing shortlist choices, timestamp/date conflicts, source-strength differences, and unresolved claims. Preserve the reports' candidate IDs and status labels.
 
-The repository must contain both research reports before selecting stories. If either report is missing, **stop before selecting stories or creating the final image** and tell the owner exactly which file is missing. If the approved concept is missing, request it too. Do not infer source contents from filenames, prior assumptions, general knowledge, or other entrants' work. Keep the two research reports unchanged; write reconciliation and final verification as separate documents.
+The repository must contain both research reports before selecting stories. If either report is missing, **stop before selecting stories or creating the final image** and tell the owner exactly which file is missing. The current concept V2 is a draft, not an approved production spec; request explicit owner approval before treating it as locked. If the generated image references are missing, request them before doing image-specific reconstruction. Do not infer source contents from filenames, prior assumptions, general knowledge, or other entrants' work. Keep the two research reports, concept draft, and visual QA report unchanged; write reconciliation and final verification as separate documents.
 
 # Editorial and fact-checking rules
 
