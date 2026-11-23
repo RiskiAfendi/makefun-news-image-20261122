@@ -66,3 +66,12 @@ The two original research reports are stored separately:
 Read both documents independently. Preserve their separate candidate IDs, claims, timestamps, confidence labels, and exclusions. Build a reconciliation table before choosing stories. Do not silently merge conflicting shortlists or treat either report as a final post-cutoff fact freeze. See `research/README.md`.
 
 The research files are supporting inputs only. They are not runtime dependencies and must not be read by `main.py` during execution.
+
+
+## Design references and concept
+
+- Concept draft: `design/concepts/GLOBAL_EDITORIAL_ATLAS_CONCEPT_V2_2026-11-23_DRAFT.md` — **DRAFT FOR DISCUSSION, NOT APPROVED FOR PRODUCTION**.
+- Prompt A/B visual QA: `design/qa/PROMPT_A_VS_B_VISUAL_QA_2026-11-23.md` — Prompt A is the layout reference; Prompt B is the illustration-style reference. Neither is final.
+- Generated image references are expected under `assets/references/generated/`. See that folder's README for the exact filenames and original measurements.
+
+Do not assume the concept is approved. Ask the owner to lock the lead-story option and information density before production. The generated drafts exceed the bounty's output limits and must not be submitted unchanged.
