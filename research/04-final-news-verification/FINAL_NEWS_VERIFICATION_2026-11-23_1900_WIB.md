@@ -18,7 +18,7 @@ The two original research tracks were reviewed against current source material a
 - Total screened: 43 candidate records. Seven clear cross-report overlaps were mapped; remaining entries were assessed separately.
 - Several material updates changed the original copy, especially Ukraine, Benghazi, Cikande, and the US House count.
 - COP31 remains the strongest consensus lead across both research tracks, but the strongest competing lead is now the updated mass-casualty reporting from Kyiv region.
-- No story list, headline set, statistics strip, or illustration plan is frozen by this report. Owner/editorial approval and the 23:30 WIB delta check remain pending.
+- No story list, headline set, statistics strip, or illustration plan is frozen by this report. Owner/editorial approval and the 23:00 WIB delta check remain pending.
 
 ### Most important corrections
 
@@ -55,11 +55,11 @@ Three categories are used:
 - **CROSS-ZONE / CONDITIONAL:** only qualifies in a limited timezone or only if an unresolved timestamp is confirmed.
 - **NOT QUALIFIED / EXCLUDE:** the available event and earliest-report timestamps do not meet the date rule, or the evidence is too weak to admit the story.
 
-### 2.3 23:30 WIB delta check
+### 2.3 23:00 WIB delta check
 
-The 23:30 WIB check is still useful for late corrections, updated casualty counts, new official statements, and source conflicts.
+The 23:00 WIB check is still useful for late corrections, updated casualty counts, new official statements, and source conflicts.
 
-However, publication timestamps at 23:30 WIB are already outside the 22 November date window in every timezone. A late report can still support a story if the **event itself** is already inside the eligible window; a late publication timestamp cannot independently make a 21 November event eligible.
+However, publication timestamps at 23:00 WIB are already outside the 22 November date window in every timezone. A late report can still support a story if the **event itself** is already inside the eligible window; a late publication timestamp cannot independently make a 21 November event eligible.
 
 ---
 
@@ -490,7 +490,7 @@ This is a shortlist for the next design discussion, not approval to freeze the f
 
 ---
 
-## 9. 23:30 WIB delta-check checklist
+## 9. 23:00 WIB delta-check checklist
 
 The next check should be limited to:
 
@@ -504,7 +504,7 @@ The next check should be limited to:
 - new WHO/UN statements on DRC or Khartoum;
 - source corrections published after the 19:00 WIB cutoff.
 
-**Do not add a new event merely because a new article appears at 23:30 WIB.** Check whether the event timestamp itself was inside the global 22 November window.
+**Do not add a new event merely because a new article appears at 23:00 WIB.** Check whether the event timestamp itself was inside the global 22 November window.
 
 ---
 
@@ -518,7 +518,7 @@ The next check should be limited to:
 - A provisional top-10 editorial pool is available.
 - No final headline, final story count, final image, production code, or bounty submission has been approved or created.
 
-**Next gate:** 23 November 2026, 23:30 WIB — Final Delta Check. After that, prepare the reconciled final fact sheet and obtain owner approval before Stage 3 (Editorial Lock / Hybrid V3).
+**Next gate:** 23 November 2026, 23:00 WIB — Final Delta Check. The owner’s internal target is to complete a valid make.fun entry submission before 24 November 2026, 00:00 WIB. After the delta check, freeze the approved story set, complete final production/QA, verify the pushed commit and agent transcript, then submit. Keep a buffer before midnight; do not treat the platform's later official deadline as the working target.
 
 ---
 
@@ -561,4 +561,4 @@ The next check should be limited to:
 
 ---
 
-**END OF REPORT — STAGE 2 COMPLETE / AWAITING 23:30 WIB DELTA CHECK**
+**END OF REPORT — STAGE 2 COMPLETE / AWAITING 23:00 WIB DELTA CHECK / INTERNAL SUBMISSION TARGET BEFORE 00:00 WIB**
