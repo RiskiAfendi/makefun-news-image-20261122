@@ -2,7 +2,7 @@
 
 **Task ID:** `MAKEFUN-NEWS-IMAGE-HYBRID-V3-PREDELTA-2026-11-23`
 **Date/time:** 23 November 2026 provisional build
-**Status:** `PROVISIONAL BUILD READY — WAITING FOR 23:00 DELTA`
+**Status:** `TECHNICALLY VALIDATED — EDITORIAL AND TRANSCRIPT GATES PENDING`
 
 ## Editorial baseline
 
@@ -28,40 +28,36 @@ The layout uses Prompt A as a hierarchy reference and Prompt B as an illustratio
 
 ## Runtime
 
-`main.py` is Python standard-library-only and copies `assets/entry.png` byte-for-byte to `/output/entry.png`. It creates `/output` if needed and rejects missing/non-PNG sources with a clear error.
+`main.py` is Python standard-library-only and copies `assets/entry.png` byte-for-byte to `/output/entry.png`. It creates `/output` if needed and rejects missing/non-PNG sources, files above 1 MiB, dimensions above 1024×1024, and invalid PNG structure with a clear error.
 
 ## Validation commands
 
 Run:
 
 ```sh
-python3 tools/render_editorial.py
-python3 -m pytest -q tests/test_entry.py
-python3 tests/test_entry.py
+python3.13 -m pytest -q tests/test_entry.py
+python3.13 tests/test_entry.py
 sha256sum assets/entry.png
 ```
 
 ## Actual validation results
 
-- Authoring render completed successfully.
-- PNG signature and complete chunk structure passed; IHDR is `1024 × 1024`, IEND and all chunk CRCs passed.
-- `assets/entry.png` size: `111,220 bytes`.
-- SHA-256 for `assets/entry.png`: `8e6017d990c715eb7d91a045d8e490fe7d0eeb78b3687c4ee7687186bac5c645`.
-- `main.py` ran twice and `/output/entry.png` matched `assets/entry.png` byte-for-byte on both runs.
-- The first and second runtime output hashes both match the asset SHA-256 above.
-- The 300×300 preview was inspected. Date/masthead, lead hierarchy, status bands, and seven secondary illustrations remain recognizable; supporting copy and three brief lines are intentionally not considered reliable at thumbnail text size.
-- No runtime network/API/download/import of third-party packages is present in `main.py`.
-- Local authoring uses Python 3.12 plus system Pillow; Python 3.13 itself was not available for a target-compatible runtime test.
+- Current Git snapshot before repository documentation updates: commit `99e279de4e4b56d5163cb61570cc00189b785967`.
+- `assets/entry.png` is a complete 1024×1024 PNG.
+- `assets/entry.png` size: `618,099 bytes`.
+- SHA-256 for `assets/entry.png`: `40e643afa838938fcc3b2668a0cb983b1b8dca6864db9c3a2df92bc70af130fa`.
+- The Git blob SHA and locally validated file match as provided in the verified snapshot.
+- `assets/previews/entry-300.png` is present, 300×300, 202,086 bytes, SHA-256 `9b8b73e44920c05b1bce4d69c062f9e1055e74b6079d8d305b35d9b9a3bb7033`. It is QA-only and is not a runtime dependency.
+- Earlier repository validation evidence under Python 3.13.5: `2 passed in 1.42s`, source/output SHA-256 match, and byte-identical output.
+- Post-edit rerun on 23 November 2026 used Python 3.13.18 via `uv`: `3 passed in 0.07s`; direct test printed `1024×1024`, 618099 bytes, SHA-256 `40e643afa838938fcc3b2668a0cb983b1b8dca6864db9c3a2df92bc70af130fa`.
+- Runtime imports only `shutil`, `struct`, `sys`, `zlib`, and `pathlib`; no network or third-party dependency is used.
 
 ## Known pending items
 
-- Final COP31 headline/wording remains provisional.
-- Kyiv/Vyshneve casualty discrepancy remains in the fact ledger.
-- Benghazi attribution remains a Ukrainian claim.
-- Cikande death toll remains unresolved.
-- 23:00 WIB delta verification is not represented as complete.
-- Python 3.13 is not installed in this local authoring environment; runtime source is 3.13-compatible and uses standard-library-only syntax.
-- Owner/editorial approval and the 23:00 WIB delta remain outstanding.
-- Coding-agent transcript status was not verified by this repository process and must be preserved by the owner/platform for later submission.
+- The current image says 24 killed/confirmed across Cikande. The 19:00 fact sheet (§3.4) says only 24 body bags were recovered and the death toll remained disputed.
+- Owner approval is required before replacing this copy with wording such as “24 BODY BAGS RECOVERED — DEATH TOLL DISPUTED” or removing the statistic.
+- The final 23:00 editorial/owner gates are not represented as complete.
+- Official Make.fun transcript bundle/check could not be run because `RULES.txt` and `cli/makefun.mjs` are absent from this repository and session artifact set.
+- Copilot Cloud session `e6b47c34-7344-4d61-8408-095b0fb1829e` and transcript discovery are pending official kit support.
 
 No submission or account/payment/wallet action was performed.

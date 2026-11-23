@@ -4,6 +4,7 @@ import subprocess
 import sys
 import zlib
 from pathlib import Path
+import tempfile
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -71,6 +72,20 @@ def test_png_and_limits():
     width, height, size, digest = validate_png(ENTRY)
     assert (width, height) == (1024, 1024)
     print(f"PNG={width}x{height} size={size} sha256={digest}")
+
+
+def test_runtime_rejects_oversized_png():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("makefun_main", ROOT / "main.py")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    oversized = b"\x89PNG\r\n\x1a\n" + (b"\0" * (module.MAX_BYTES + 1))
+    try:
+        module.validate_png(oversized)
+    except ValueError as error:
+        assert "exceeds 1 MiB" in str(error)
+    else:
+        raise AssertionError("oversized PNG was accepted")
 
 
 if __name__ == "__main__":
