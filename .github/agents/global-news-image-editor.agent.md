@@ -120,7 +120,7 @@ Work in explicit stages. Do not skip a gate.
 
 ## Stage 1 — Evidence inventory
 
-Read the repository, identify source materials, and report gaps. If the approved concept or verified research is absent, stop and request it.
+Follow the read-only task exactly as defined in `research/03-evidence-inventory/EVIDENCE_INVENTORY_TASK_2026-11-23.md`. Save the report to `research/03-evidence-inventory/EVIDENCE_INVENTORY_REPORT_2026-11-23.md`. Do not modify source reports, prompts, concept, QA report, or image references. Do not generate images, select final stories, or code in this stage. Stop after the report is complete and request owner review. If required source files are missing or unreadable, report the blocker rather than guessing.
 
 ## Stage 2 — Editorial plan
 
